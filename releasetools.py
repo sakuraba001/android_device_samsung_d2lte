@@ -26,3 +26,4 @@ def FullOTA_InstallEnd(info):
   info.script.AppendExtra('ifelse(is_substring("I747", getprop("ro.bootloader")), run_program("/sbin/sh", "-c", "busybox cp -R /system/blobs/gsm/* /system/"));')
   info.script.AppendExtra('ifelse(is_substring("T999", getprop("ro.bootloader")), run_program("/sbin/sh", "-c", "busybox cp -R /system/blobs/gsm/* /system/"));')
   info.script.AppendExtra('ifelse(is_substring("SC06D", getprop("ro.bootloader")), run_program("/sbin/sh", "-c", "busybox cp -R /system/blobs/gsm/* /system/"));')
+  info.script.AppendExtra('ifelse(is_substring("SCL21", getprop("ro.bootloader")), run_program("/sbin/sh", "-c", "busybox cp -R /system/blobs/gsm/* /system/"));')
