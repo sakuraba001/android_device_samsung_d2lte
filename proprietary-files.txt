@@ -26,6 +26,8 @@ blobs/spr/lib/libril-qc-qmi-1.so
 blobs/spr/lib/libril.so
 blobs/vzw/lib/libril-qc-qmi-1.so
 blobs/vzw/lib/libril.so
+blobs/kdi/lib/libril-qc-qmi-1.so
+blobs/kdi/lib/libril.so
 
 # Sensors
 lib/hw/sensors.msm8960.so
