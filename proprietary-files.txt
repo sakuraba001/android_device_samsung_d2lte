@@ -85,6 +85,8 @@ blobs/spr/lib/libril.so
 blobs/spr/lib/libsec-ril.so
 blobs/vzw/lib/libril.so
 blobs/vzw/lib/libsec-ril.so
+blobs/kdi/lib/libril.so
+blobs/kdi/lib/libsec-ril.so
 lib/libatparser.so
 lib/libcordon.so
 lib/libfactoryutil.so

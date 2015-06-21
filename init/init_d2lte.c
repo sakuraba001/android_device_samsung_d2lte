@@ -86,7 +86,7 @@ void vendor_load_properties()
         property_set("ro.ril.enable.dcm.feature", "1");
     } else if (strstr(bootloader, "SCL21")) {
         /* d2kdi */
-        cdma_properties("0", "10", "44054", "KDDI", "1");
+        cdma_properties("0", "10", "44050", "KDDI", "1");
         property_set("ro.build.fingerprint", "KDDI/SCL21/SCL21:4.1.2/JZO54K/SCL21KDBND1:user/release-keys");
         property_set("ro.build.description", "d2kdi-user 4.1.2 JZO54K SCL21KDBND1 release-keys");
         property_set("ro.product.model", "SCL21");
