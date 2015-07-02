@@ -61,7 +61,7 @@ TARGET_NEED_SAMSUNG_CAMERA_MODE := true
 TARGET_NO_RPC := true
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/samsung/d2lte/ril
+#BOARD_RIL_CLASS := ../../../device/samsung/d2lte/ril
 
 # Wifi
 WIFI_BAND := 802_11_ABG

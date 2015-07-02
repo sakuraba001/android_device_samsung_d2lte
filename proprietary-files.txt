@@ -68,6 +68,7 @@ vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 
 # Radio
+bin/sec-ril
 bin/ds_fmc_appd
 bin/efsks
 bin/ks
@@ -86,7 +87,7 @@ blobs/spr/lib/libsec-ril.so
 blobs/vzw/lib/libril.so
 blobs/vzw/lib/libsec-ril.so
 blobs/kdi/lib/libril.so
-blobs/kdi/lib/libsec-ril.so
+blobs/kdi/lib/libril-qc-qmi-1.so
 lib/libatparser.so
 lib/libcordon.so
 lib/libfactoryutil.so
