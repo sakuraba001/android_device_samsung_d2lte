@@ -15,7 +15,7 @@
 #
 
 ## Get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/d2lte/d2lte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/d2kdi/d2kdi-vendor.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2lte/overlay
