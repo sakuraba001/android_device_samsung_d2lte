@@ -69,14 +69,6 @@ vendor/lib/liblocationservice.so
 
 # Radio
 bin/sec-ril
-blobs/gsm/lib/libril.so
-blobs/gsm/lib/libsec-ril.so
-blobs/r530/lib/libril.so
-blobs/r530/lib/libsec-ril.so
-blobs/spr/lib/libril.so
-blobs/spr/lib/libsec-ril.so
-blobs/vzw/lib/libril.so
-blobs/vzw/lib/libsec-ril.so
 blobs/kdi/lib/libril.so
 blobs/kdi/lib/libril-qc-qmi-1.so
 
